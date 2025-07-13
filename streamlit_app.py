@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os
 
 
-login("HF_Token")  # Replace with your HF token
+login("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")  # Replace with your HF token
 
 # Load the Stable Diffusion model
 @st.cache_resource
