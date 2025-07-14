@@ -19,7 +19,7 @@ def load_model():
         "stabilityai/stable-diffusion-2-1-base",
         torch_dtype=torch.float16,
         use_safetensors=True
-    ).to("cuda")  # Use "cuda" if you have a GPU
+    ).to("cpu")  # Use "cuda" if you have a GPU
     return pipe
 
 pipe = load_model()
